@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C9A4CBF1FAE6C8F00ED8256 /* AutoDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9A4CBE1FAE6C8F00ED8256 /* AutoDetailViewController.swift */; };
+		2C9A4CC11FAE6CA200ED8256 /* AutoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9A4CC01FAE6CA200ED8256 /* AutoTableViewController.swift */; };
+		2C9A4CC31FAE6CB100ED8256 /* AutoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9A4CC21FAE6CB100ED8256 /* AutoTableViewCell.swift */; };
+		2C9A4CCD1FAEAD1200ED8256 /* CompDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9A4CCC1FAEAD1200ED8256 /* CompDetailViewController.swift */; };
+		2C9A4CCF1FAEAD2000ED8256 /* CompTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9A4CCE1FAEAD2000ED8256 /* CompTableViewController.swift */; };
+		2C9A4CD11FAEAD2E00ED8256 /* CompTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9A4CD01FAEAD2E00ED8256 /* CompTableViewCell.swift */; };
+		2C9A4CE21FB130B300ED8256 /* FoodTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9A4CE11FB130B300ED8256 /* FoodTableViewCell.swift */; };
+		2C9A4CE41FB130C100ED8256 /* FoodTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9A4CE31FB130C100ED8256 /* FoodTableViewController.swift */; };
+		2C9A4CE61FB130D100ED8256 /* FoodDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9A4CE51FB130D100ED8256 /* FoodDetailViewController.swift */; };
+		2C9A4CF01FB2974800ED8256 /* HotelTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9A4CEF1FB2974800ED8256 /* HotelTableViewCell.swift */; };
+		2C9A4CF21FB2975900ED8256 /* HotelTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9A4CF11FB2975900ED8256 /* HotelTableViewController.swift */; };
+		2C9A4CF41FB2977B00ED8256 /* HotelDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9A4CF31FB2977B00ED8256 /* HotelDetailViewController.swift */; };
+		2C9A4CFE1FB3E47A00ED8256 /* MedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9A4CFD1FB3E47A00ED8256 /* MedTableViewCell.swift */; };
+		2C9A4D001FB3E48C00ED8256 /* MedTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9A4CFF1FB3E48C00ED8256 /* MedTableViewController.swift */; };
+		2C9A4D021FB3E49D00ED8256 /* MedDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9A4D011FB3E49D00ED8256 /* MedDetailViewController.swift */; };
+		2C9A4D051FB3EC6800ED8256 /* OrgDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9A4D041FB3EC6800ED8256 /* OrgDetailViewController.swift */; };
+		2C9A4D071FB3EC7600ED8256 /* OrgTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9A4D061FB3EC7600ED8256 /* OrgTableViewController.swift */; };
+		2C9A4D091FB3EC8400ED8256 /* OrgTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9A4D081FB3EC8400ED8256 /* OrgTableViewCell.swift */; };
+		2C9A4D131FB5391900ED8256 /* REDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9A4D121FB5391900ED8256 /* REDetailViewController.swift */; };
+		2C9A4D151FB5392700ED8256 /* RETableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9A4D141FB5392700ED8256 /* RETableViewController.swift */; };
+		2C9A4D171FB5393C00ED8256 /* RETableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9A4D161FB5393C00ED8256 /* RETableViewCell.swift */; };
+		2C9A4D1A1FB53FE500ED8256 /* RetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9A4D191FB53FE500ED8256 /* RetailTableViewCell.swift */; };
+		2C9A4D1C1FB53FF700ED8256 /* RetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9A4D1B1FB53FF700ED8256 /* RetailTableViewController.swift */; };
+		2C9A4D1E1FB5400B00ED8256 /* RetailDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9A4D1D1FB5400B00ED8256 /* RetailDetailViewController.swift */; };
+		2C9A4D281FB540C200ED8256 /* TourTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9A4D271FB540C200ED8256 /* TourTableViewCell.swift */; };
+		2C9A4D2A1FB540CF00ED8256 /* TourTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9A4D291FB540CF00ED8256 /* TourTableViewController.swift */; };
+		2C9A4D2C1FB540ED00ED8256 /* TourDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9A4D2B1FB540ED00ED8256 /* TourDetailViewController.swift */; };
+		2C9C924D1FA813FF005941F0 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9C924C1FA813FF005941F0 /* HomeViewController.swift */; };
+		2C9C92661FA81813005941F0 /* automotive_services_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C9C92521FA81813005941F0 /* automotive_services_icon.png */; };
+		2C9C92681FA81813005941F0 /* computer_services_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C9C92541FA81813005941F0 /* computer_services_icon.png */; };
+		2C9C926B1FA81813005941F0 /* food_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C9C92571FA81813005941F0 /* food_icon.png */; };
+		2C9C926D1FA81813005941F0 /* hotel_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C9C92591FA81813005941F0 /* hotel_icon.png */; };
+		2C9C926F1FA81813005941F0 /* medical_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C9C925B1FA81813005941F0 /* medical_icon.png */; };
+		2C9C92701FA81813005941F0 /* organizations_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C9C925C1FA81813005941F0 /* organizations_icon.png */; };
+		2C9C92721FA81813005941F0 /* real_estate_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C9C925E1FA81813005941F0 /* real_estate_icon.png */; };
+		2C9C92731FA81813005941F0 /* retail_icon.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2C9C925F1FA81813005941F0 /* retail_icon.jpeg */; };
+		2C9C92751FA81813005941F0 /* tourism_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C9C92611FA81813005941F0 /* tourism_icon.png */; };
+		2CC271A41FA50EC80004482D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC271A31FA50EC80004482D /* AppDelegate.swift */; };
+		2CC271A91FA50EC80004482D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CC271A71FA50EC80004482D /* Main.storyboard */; };
+		2CC271AB1FA50EC80004482D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CC271AA1FA50EC80004482D /* Assets.xcassets */; };
+		2CC271AE1FA50EC80004482D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CC271AC1FA50EC80004482D /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2C9A4CBE1FAE6C8F00ED8256 /* AutoDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoDetailViewController.swift; sourceTree = "<group>"; };
+		2C9A4CC01FAE6CA200ED8256 /* AutoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoTableViewController.swift; sourceTree = "<group>"; };
+		2C9A4CC21FAE6CB100ED8256 /* AutoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoTableViewCell.swift; sourceTree = "<group>"; };
+		2C9A4CCC1FAEAD1200ED8256 /* CompDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompDetailViewController.swift; sourceTree = "<group>"; };
+		2C9A4CCE1FAEAD2000ED8256 /* CompTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompTableViewController.swift; sourceTree = "<group>"; };
+		2C9A4CD01FAEAD2E00ED8256 /* CompTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompTableViewCell.swift; sourceTree = "<group>"; };
+		2C9A4CE11FB130B300ED8256 /* FoodTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTableViewCell.swift; sourceTree = "<group>"; };
+		2C9A4CE31FB130C100ED8256 /* FoodTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTableViewController.swift; sourceTree = "<group>"; };
+		2C9A4CE51FB130D100ED8256 /* FoodDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodDetailViewController.swift; sourceTree = "<group>"; };
+		2C9A4CEF1FB2974800ED8256 /* HotelTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelTableViewCell.swift; sourceTree = "<group>"; };
+		2C9A4CF11FB2975900ED8256 /* HotelTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelTableViewController.swift; sourceTree = "<group>"; };
+		2C9A4CF31FB2977B00ED8256 /* HotelDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelDetailViewController.swift; sourceTree = "<group>"; };
+		2C9A4CFD1FB3E47A00ED8256 /* MedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedTableViewCell.swift; sourceTree = "<group>"; };
+		2C9A4CFF1FB3E48C00ED8256 /* MedTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedTableViewController.swift; sourceTree = "<group>"; };
+		2C9A4D011FB3E49D00ED8256 /* MedDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedDetailViewController.swift; sourceTree = "<group>"; };
+		2C9A4D041FB3EC6800ED8256 /* OrgDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrgDetailViewController.swift; sourceTree = "<group>"; };
+		2C9A4D061FB3EC7600ED8256 /* OrgTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrgTableViewController.swift; sourceTree = "<group>"; };
+		2C9A4D081FB3EC8400ED8256 /* OrgTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrgTableViewCell.swift; sourceTree = "<group>"; };
+		2C9A4D121FB5391900ED8256 /* REDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = REDetailViewController.swift; sourceTree = "<group>"; };
+		2C9A4D141FB5392700ED8256 /* RETableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RETableViewController.swift; sourceTree = "<group>"; };
+		2C9A4D161FB5393C00ED8256 /* RETableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RETableViewCell.swift; sourceTree = "<group>"; };
+		2C9A4D191FB53FE500ED8256 /* RetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetailTableViewCell.swift; sourceTree = "<group>"; };
+		2C9A4D1B1FB53FF700ED8256 /* RetailTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetailTableViewController.swift; sourceTree = "<group>"; };
+		2C9A4D1D1FB5400B00ED8256 /* RetailDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetailDetailViewController.swift; sourceTree = "<group>"; };
+		2C9A4D271FB540C200ED8256 /* TourTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TourTableViewCell.swift; sourceTree = "<group>"; };
+		2C9A4D291FB540CF00ED8256 /* TourTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TourTableViewController.swift; sourceTree = "<group>"; };
+		2C9A4D2B1FB540ED00ED8256 /* TourDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TourDetailViewController.swift; sourceTree = "<group>"; };
+		2C9C924C1FA813FF005941F0 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		2C9C92521FA81813005941F0 /* automotive_services_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = automotive_services_icon.png; sourceTree = "<group>"; };
+		2C9C92541FA81813005941F0 /* computer_services_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = computer_services_icon.png; sourceTree = "<group>"; };
+		2C9C92571FA81813005941F0 /* food_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = food_icon.png; sourceTree = "<group>"; };
+		2C9C92591FA81813005941F0 /* hotel_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hotel_icon.png; sourceTree = "<group>"; };
+		2C9C925B1FA81813005941F0 /* medical_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = medical_icon.png; sourceTree = "<group>"; };
+		2C9C925C1FA81813005941F0 /* organizations_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = organizations_icon.png; sourceTree = "<group>"; };
+		2C9C925E1FA81813005941F0 /* real_estate_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = real_estate_icon.png; sourceTree = "<group>"; };
+		2C9C925F1FA81813005941F0 /* retail_icon.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = retail_icon.jpeg; sourceTree = "<group>"; };
+		2C9C92611FA81813005941F0 /* tourism_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tourism_icon.png; sourceTree = "<group>"; };
+		2CC271A01FA50EC80004482D /* TuskegeeBusinessNetwork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TuskegeeBusinessNetwork.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CC271A31FA50EC80004482D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2CC271A81FA50EC80004482D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2CC271AA1FA50EC80004482D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2CC271AD1FA50EC80004482D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2CC271AF1FA50EC80004482D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2CC2719D1FA50EC80004482D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C9A4CBD1FAE6C7400ED8256 /* Auto Businesses */ = {
+			isa = PBXGroup;
+			children = (
+				2C9A4CBE1FAE6C8F00ED8256 /* AutoDetailViewController.swift */,
+				2C9A4CC01FAE6CA200ED8256 /* AutoTableViewController.swift */,
+				2C9A4CC21FAE6CB100ED8256 /* AutoTableViewCell.swift */,
+			);
+			path = "Auto Businesses";
+			sourceTree = "<group>";
+		};
+		2C9A4CCB1FAEACF300ED8256 /* CompRepair Businesses */ = {
+			isa = PBXGroup;
+			children = (
+				2C9A4CCC1FAEAD1200ED8256 /* CompDetailViewController.swift */,
+				2C9A4CCE1FAEAD2000ED8256 /* CompTableViewController.swift */,
+				2C9A4CD01FAEAD2E00ED8256 /* CompTableViewCell.swift */,
+			);
+			path = "CompRepair Businesses";
+			sourceTree = "<group>";
+		};
+		2C9A4CE01FB130A200ED8256 /* Food Businesses */ = {
+			isa = PBXGroup;
+			children = (
+				2C9A4CE11FB130B300ED8256 /* FoodTableViewCell.swift */,
+				2C9A4CE31FB130C100ED8256 /* FoodTableViewController.swift */,
+				2C9A4CE51FB130D100ED8256 /* FoodDetailViewController.swift */,
+			);
+			path = "Food Businesses";
+			sourceTree = "<group>";
+		};
+		2C9A4CEE1FB2973600ED8256 /* Hotel Businesses */ = {
+			isa = PBXGroup;
+			children = (
+				2C9A4CEF1FB2974800ED8256 /* HotelTableViewCell.swift */,
+				2C9A4CF11FB2975900ED8256 /* HotelTableViewController.swift */,
+				2C9A4CF31FB2977B00ED8256 /* HotelDetailViewController.swift */,
+			);
+			path = "Hotel Businesses";
+			sourceTree = "<group>";
+		};
+		2C9A4CFC1FB3E46600ED8256 /* Medical Businesses */ = {
+			isa = PBXGroup;
+			children = (
+				2C9A4CFD1FB3E47A00ED8256 /* MedTableViewCell.swift */,
+				2C9A4CFF1FB3E48C00ED8256 /* MedTableViewController.swift */,
+				2C9A4D011FB3E49D00ED8256 /* MedDetailViewController.swift */,
+			);
+			path = "Medical Businesses";
+			sourceTree = "<group>";
+		};
+		2C9A4D031FB3EC5000ED8256 /* Organization Businesses */ = {
+			isa = PBXGroup;
+			children = (
+				2C9A4D041FB3EC6800ED8256 /* OrgDetailViewController.swift */,
+				2C9A4D061FB3EC7600ED8256 /* OrgTableViewController.swift */,
+				2C9A4D081FB3EC8400ED8256 /* OrgTableViewCell.swift */,
+			);
+			path = "Organization Businesses";
+			sourceTree = "<group>";
+		};
+		2C9A4D111FB538F400ED8256 /* Real Estate Businesses */ = {
+			isa = PBXGroup;
+			children = (
+				2C9A4D121FB5391900ED8256 /* REDetailViewController.swift */,
+				2C9A4D141FB5392700ED8256 /* RETableViewController.swift */,
+				2C9A4D161FB5393C00ED8256 /* RETableViewCell.swift */,
+			);
+			path = "Real Estate Businesses";
+			sourceTree = "<group>";
+		};
+		2C9A4D181FB53FCD00ED8256 /* Retail Businesses */ = {
+			isa = PBXGroup;
+			children = (
+				2C9A4D191FB53FE500ED8256 /* RetailTableViewCell.swift */,
+				2C9A4D1B1FB53FF700ED8256 /* RetailTableViewController.swift */,
+				2C9A4D1D1FB5400B00ED8256 /* RetailDetailViewController.swift */,
+			);
+			path = "Retail Businesses";
+			sourceTree = "<group>";
+		};
+		2C9A4D261FB540AA00ED8256 /* Tourism Businesses */ = {
+			isa = PBXGroup;
+			children = (
+				2C9A4D271FB540C200ED8256 /* TourTableViewCell.swift */,
+				2C9A4D291FB540CF00ED8256 /* TourTableViewController.swift */,
+				2C9A4D2B1FB540ED00ED8256 /* TourDetailViewController.swift */,
+			);
+			path = "Tourism Businesses";
+			sourceTree = "<group>";
+		};
+		2C9C924E1FA81813005941F0 /* TBM Images */ = {
+			isa = PBXGroup;
+			children = (
+				2C9C92521FA81813005941F0 /* automotive_services_icon.png */,
+				2C9C92541FA81813005941F0 /* computer_services_icon.png */,
+				2C9C92571FA81813005941F0 /* food_icon.png */,
+				2C9C92591FA81813005941F0 /* hotel_icon.png */,
+				2C9C925B1FA81813005941F0 /* medical_icon.png */,
+				2C9C925C1FA81813005941F0 /* organizations_icon.png */,
+				2C9C925E1FA81813005941F0 /* real_estate_icon.png */,
+				2C9C925F1FA81813005941F0 /* retail_icon.jpeg */,
+				2C9C92611FA81813005941F0 /* tourism_icon.png */,
+			);
+			path = "TBM Images";
+			sourceTree = "<group>";
+		};
+		2CC271971FA50EC80004482D = {
+			isa = PBXGroup;
+			children = (
+				2CC271A21FA50EC80004482D /* TuskegeeBusinessNetwork */,
+				2CC271A11FA50EC80004482D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2CC271A11FA50EC80004482D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2CC271A01FA50EC80004482D /* TuskegeeBusinessNetwork.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2CC271A21FA50EC80004482D /* TuskegeeBusinessNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				2C9A4D261FB540AA00ED8256 /* Tourism Businesses */,
+				2C9A4D181FB53FCD00ED8256 /* Retail Businesses */,
+				2C9A4D111FB538F400ED8256 /* Real Estate Businesses */,
+				2C9A4D031FB3EC5000ED8256 /* Organization Businesses */,
+				2C9A4CFC1FB3E46600ED8256 /* Medical Businesses */,
+				2C9A4CEE1FB2973600ED8256 /* Hotel Businesses */,
+				2C9A4CE01FB130A200ED8256 /* Food Businesses */,
+				2C9A4CCB1FAEACF300ED8256 /* CompRepair Businesses */,
+				2C9A4CBD1FAE6C7400ED8256 /* Auto Businesses */,
+				2CC271A31FA50EC80004482D /* AppDelegate.swift */,
+				2C9C924C1FA813FF005941F0 /* HomeViewController.swift */,
+				2CC271A71FA50EC80004482D /* Main.storyboard */,
+				2CC271AA1FA50EC80004482D /* Assets.xcassets */,
+				2CC271AC1FA50EC80004482D /* LaunchScreen.storyboard */,
+				2CC271AF1FA50EC80004482D /* Info.plist */,
+				2C9C924E1FA81813005941F0 /* TBM Images */,
+			);
+			path = TuskegeeBusinessNetwork;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2CC2719F1FA50EC80004482D /* TuskegeeBusinessNetwork */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CC271B21FA50EC80004482D /* Build configuration list for PBXNativeTarget "TuskegeeBusinessNetwork" */;
+			buildPhases = (
+				2CC2719C1FA50EC80004482D /* Sources */,
+				2CC2719D1FA50EC80004482D /* Frameworks */,
+				2CC2719E1FA50EC80004482D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TuskegeeBusinessNetwork;
+			productName = TuskegeeBusinessNetwork;
+			productReference = 2CC271A01FA50EC80004482D /* TuskegeeBusinessNetwork.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2CC271981FA50EC80004482D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Erik Hemingway";
+				TargetAttributes = {
+					2CC2719F1FA50EC80004482D = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 2CC2719B1FA50EC80004482D /* Build configuration list for PBXProject "TuskegeeBusinessNetwork" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2CC271971FA50EC80004482D;
+			productRefGroup = 2CC271A11FA50EC80004482D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2CC2719F1FA50EC80004482D /* TuskegeeBusinessNetwork */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2CC2719E1FA50EC80004482D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C9C926B1FA81813005941F0 /* food_icon.png in Resources */,
+				2C9C92731FA81813005941F0 /* retail_icon.jpeg in Resources */,
+				2C9C926D1FA81813005941F0 /* hotel_icon.png in Resources */,
+				2CC271AE1FA50EC80004482D /* LaunchScreen.storyboard in Resources */,
+				2C9C92721FA81813005941F0 /* real_estate_icon.png in Resources */,
+				2CC271AB1FA50EC80004482D /* Assets.xcassets in Resources */,
+				2C9C926F1FA81813005941F0 /* medical_icon.png in Resources */,
+				2C9C92661FA81813005941F0 /* automotive_services_icon.png in Resources */,
+				2C9C92681FA81813005941F0 /* computer_services_icon.png in Resources */,
+				2C9C92751FA81813005941F0 /* tourism_icon.png in Resources */,
+				2C9C92701FA81813005941F0 /* organizations_icon.png in Resources */,
+				2CC271A91FA50EC80004482D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2CC2719C1FA50EC80004482D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C9A4CF41FB2977B00ED8256 /* HotelDetailViewController.swift in Sources */,
+				2C9A4CF21FB2975900ED8256 /* HotelTableViewController.swift in Sources */,
+				2C9A4D1E1FB5400B00ED8256 /* RetailDetailViewController.swift in Sources */,
+				2C9A4D2C1FB540ED00ED8256 /* TourDetailViewController.swift in Sources */,
+				2C9A4D151FB5392700ED8256 /* RETableViewController.swift in Sources */,
+				2C9A4CE41FB130C100ED8256 /* FoodTableViewController.swift in Sources */,
+				2C9A4CF01FB2974800ED8256 /* HotelTableViewCell.swift in Sources */,
+				2C9C924D1FA813FF005941F0 /* HomeViewController.swift in Sources */,
+				2C9A4CC31FAE6CB100ED8256 /* AutoTableViewCell.swift in Sources */,
+				2C9A4D131FB5391900ED8256 /* REDetailViewController.swift in Sources */,
+				2C9A4D171FB5393C00ED8256 /* RETableViewCell.swift in Sources */,
+				2C9A4D091FB3EC8400ED8256 /* OrgTableViewCell.swift in Sources */,
+				2C9A4CC11FAE6CA200ED8256 /* AutoTableViewController.swift in Sources */,
+				2C9A4CCD1FAEAD1200ED8256 /* CompDetailViewController.swift in Sources */,
+				2C9A4D021FB3E49D00ED8256 /* MedDetailViewController.swift in Sources */,
+				2C9A4D1A1FB53FE500ED8256 /* RetailTableViewCell.swift in Sources */,
+				2C9A4D281FB540C200ED8256 /* TourTableViewCell.swift in Sources */,
+				2C9A4D2A1FB540CF00ED8256 /* TourTableViewController.swift in Sources */,
+				2C9A4CE21FB130B300ED8256 /* FoodTableViewCell.swift in Sources */,
+				2C9A4CE61FB130D100ED8256 /* FoodDetailViewController.swift in Sources */,
+				2C9A4D001FB3E48C00ED8256 /* MedTableViewController.swift in Sources */,
+				2C9A4CD11FAEAD2E00ED8256 /* CompTableViewCell.swift in Sources */,
+				2C9A4CFE1FB3E47A00ED8256 /* MedTableViewCell.swift in Sources */,
+				2C9A4D071FB3EC7600ED8256 /* OrgTableViewController.swift in Sources */,
+				2C9A4D051FB3EC6800ED8256 /* OrgDetailViewController.swift in Sources */,
+				2C9A4CCF1FAEAD2000ED8256 /* CompTableViewController.swift in Sources */,
+				2CC271A41FA50EC80004482D /* AppDelegate.swift in Sources */,
+				2C9A4CBF1FAE6C8F00ED8256 /* AutoDetailViewController.swift in Sources */,
+				2C9A4D1C1FB53FF700ED8256 /* RetailTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2CC271A71FA50EC80004482D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2CC271A81FA50EC80004482D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2CC271AC1FA50EC80004482D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2CC271AD1FA50EC80004482D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2CC271B01FA50EC80004482D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2CC271B11FA50EC80004482D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2CC271B31FA50EC80004482D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S72M8V8X25;
+				INFOPLIST_FILE = TuskegeeBusinessNetwork/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.roboticize.TuskegeeBusinessNetwork;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		2CC271B41FA50EC80004482D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S72M8V8X25;
+				INFOPLIST_FILE = TuskegeeBusinessNetwork/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.roboticize.TuskegeeBusinessNetwork;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2CC2719B1FA50EC80004482D /* Build configuration list for PBXProject "TuskegeeBusinessNetwork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CC271B01FA50EC80004482D /* Debug */,
+				2CC271B11FA50EC80004482D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CC271B21FA50EC80004482D /* Build configuration list for PBXNativeTarget "TuskegeeBusinessNetwork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CC271B31FA50EC80004482D /* Debug */,
+				2CC271B41FA50EC80004482D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2CC271981FA50EC80004482D /* Project object */;
+}
